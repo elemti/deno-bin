@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "npx np --yolo",
+    "release": "npx np --yolo --no-2fa",
     "prepublishOnly": "node ./scripts/prepublish.js",
     "preinstall": "node ./scripts/preinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
