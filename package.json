@@ -8,9 +8,12 @@
   "main": "index.js",
   "scripts": {
     "release": "npx np --yolo",
-    "prepublish": "node ./scripts/prepublish.js",
+    "prepublishOnly": "node ./scripts/prepublish.js",
     "preinstall": "node ./scripts/preinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist",
