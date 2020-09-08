@@ -1,3 +1,3 @@
 # deno-bin
 
-npm i -g @elemti/deno-bin
+`npm i -g @elemti/deno-bin`
